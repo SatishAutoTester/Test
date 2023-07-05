@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/synecgnjrtxq/defaulttenant/testmanager_/",
+  "defaultProject": {
+    "id": "03f26a7e-f420-0000-3f99-0b458972c331",
+    "name": "VanquisTestAutomation",
+    "key": "VAN"
+  }
+}

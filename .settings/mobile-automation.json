@@ -1,0 +1,50 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Samsung S22",
+      "Description": null,
+      "Url": "http://hub.browserstack.com/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "12.0",
+      "DeviceName": "Samsung Galaxy S22 Ultra",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      },
+      "HttpHeaders": {}
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "Test App",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserstack.user": "vanquistest_RMLz9U",
+            "browserstack.key": "WJCpRzWyRohe7psqM8Aq",
+            "app": "bs://0761160993f8976f98b94f24dd6e936ade136186"
+          },
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {},
+  "HttpHeaders": {}
+}

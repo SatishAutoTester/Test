@@ -1,0 +1,82 @@
+{
+  "name": "Vanquis_TestAutomation",
+  "description": "Vanquis bank test automation POC",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.Excel.Activities": "2.20.2",
+    "UiPath.Mail.Activities": "1.20.2",
+    "UiPath.MobileAutomation.Activities": "23.4.2",
+    "UiPath.OCR.Activities": "3.15.1",
+    "UiPath.System.Activities": "23.4.3",
+    "UiPath.Testing.Activities": "23.4.1",
+    "UiPath.UIAutomation.Activities": "23.4.7",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.2.0",
+  "projectVersion": "1.0.142272140",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5f5ef76d-d9ba-444c-9121-d53c2a00cdcb",
+        "dataVariationFilePath": ".variations\\TC03_MobleApp_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC03_MobileAppTest.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "324eb992-2533-4174-b594-675d083b4fe3",
+        "dataVariationFilePath": ".variations\\TC01_VanquisLoan_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC01_ApplyLoan.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9b5b83d8-7e38-4b21-b001-0f922ca88e1e",
+        "dataVariationFilePath": ".variations\\TC02_VanquisLoanAPI_Sheet1.json",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCases\\TC02_ApplyLoanAPI.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
