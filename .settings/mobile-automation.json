@@ -33,9 +33,9 @@
       "Platforms": {
         "Android": {
           "Capabilities": {
-            "browserstack.user": "vanquistest_RMLz9U",
-            "browserstack.key": "WJCpRzWyRohe7psqM8Aq",
-            "app": "bs://0761160993f8976f98b94f24dd6e936ade136186"
+            "browserstack.user": "automationtest_j1ANz2",
+            "browserstack.key": "tTQnYpPbqBscVSyBVUyQ",
+            "app": "bs://f63bffaa2b491a7b169859ac60c1bda37a81a405"
           },
           "StartPage": null
         }

@@ -13,7 +13,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>873.333333333333,6258.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>872,6178.66666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>verifyTheApplicationLoan_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -90,7 +90,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="verifyTheLoanApplication" sap:VirtualizedContainerService.HintSize="692,6154" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="verifyTheLoanApplication" sap:VirtualizedContainerService.HintSize="692,6114" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="approvalStage" />
       <Variable x:TypeArguments="x:String" Name="decisioncode" />
@@ -107,7 +107,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" ContinueOnError="False" DisplayName="Attach Browser 'chrome.exe Lightning'" sap:VirtualizedContainerService.HintSize="630,6043.33333333333" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="e4b032b16fdd1e0057faee68edc52618" Selector="&lt;html app='chrome.exe' title='Lightning Experience*' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" ContinueOnError="False" DisplayName="Attach Browser 'chrome.exe Lightning'" sap:VirtualizedContainerService.HintSize="630,6003.33333333333" sap2010:WorkflowViewState.IdRef="BrowserScope_2" InformativeScreenshot="e4b032b16fdd1e0057faee68edc52618" Selector="&lt;html app='chrome.exe' title='Lightning Experience*' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
